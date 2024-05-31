@@ -1,10 +1,11 @@
-function App() {
+import React from "react";
+import Header from "../component/Header";
+
+/* Build the Header component */
+export default function App() {
   return (
-    <>
-      <h1>Wellcome Boikhutso</h1>
-      <h2>Wellcome to my page</h2>
-    </>
+    <div>
+      <Header />
+    </div>
   );
 }
-
-export default App;
